@@ -186,7 +186,7 @@ h1.title .accent { color: #e3bf6e; font-style: italic; }
 
 <section id="scene-scratch" class="scene">
   <p class="badge">Gift No. 1</p>
-  <h1 class="title" style="font-size:22px">scratch to see today's cutie</h1>
+  <h1 class="title" style="font-size:22px">Scratch to see today's cutie</h1>
   <div class="polaroid" id="polaroidCard">
     <div class="scratch-area">
       <img id="scratchPhoto" src="" alt="">
@@ -194,23 +194,23 @@ h1.title .accent { color: #e3bf6e; font-style: italic; }
     </div>
     <p class="polaroid-caption" id="scratchCaption"></p>
   </div>
-  <p class="music-note-hint">🎵 keep scratching, a little song is playing</p>
+  <p class="music-note-hint">🎵 Keep scratching, a little song is playing</p>
   <button class="big-btn" data-next="scene-game" style="margin-top:20px">next surprise <span>&rarr;</span></button>
 </section>
 
 <section id="scene-game" class="scene">
   <p class="badge">Gift No. 2</p>
-  <h1 class="title" style="font-size:22px">pop the balloons</h1>
+  <h1 class="title" style="font-size:22px">Pop the balloons</h1>
   <p class="score-pill" id="scorePill">popped: 0 / 6</p>
   <div class="game-area" id="gameArea"></div>
-  <p class="game-hint">tap the balloons before they float away</p>
+  <p class="game-hint">Tap the balloons one by one before float away</p>
   <button class="big-btn" id="toMemesBtn" style="margin-top:16px;display:none">next surprise <span>&rarr;</span></button>
 </section>
 
 <section id="scene-memes" class="scene">
   <p class="badge">Gift No. 3</p>
-  <h1 class="title" style="font-size:22px">scratch our story</h1>
-  <p class="sub" style="margin-bottom:16px">we met, we texted, i fell, forever</p>
+  <h1 class="title" style="font-size:22px">Scratch our story</h1>
+  <p class="sub" style="margin-bottom:16px">How we met and i fell harder for forever</p>
   <div class="meme-grid" id="memeGrid"></div>
   <div class="meme-center" id="memeCenter"></div>
   <button class="big-btn" id="toPlaylistBtn" style="margin-top:20px">next surprise <span>&rarr;</span></button>
@@ -218,10 +218,10 @@ h1.title .accent { color: #e3bf6e; font-style: italic; }
 
 <section id="scene-playlist" class="scene">
   <p class="badge">Gift No. 4</p>
-  <h1 class="title" style="font-size:22px">our playlist</h1>
-  <p class="sub">a few songs that remind me of us</p>
+  <h1 class="title" style="font-size:22px">Playlist</h1>
+  <p class="sub">Few songs that remind me of us!!</p>
   <div class="playlist-wrap" id="playlistWrap"></div>
-  <p class="playlist-hint">tap a song to play &middot; tap again to stop</p>
+  <p class="playlist-hint"> Tap icon for &middot; start & stop</p>
   <button class="big-btn" data-next="scene-reasons" style="margin-top:20px">next surprise <span>&rarr;</span></button>
 </section>
 
@@ -286,11 +286,11 @@ const CONFIG = {
   ],
 
   reasons: [
-    { icon: "💗", text: "you actually listen when I talk about random stuff!!" },
-    { icon: "😂", text: "you laugh at my bad jokes!" },
-    { icon: "🫂", text: "you make everything feel less stressful." },
-    { icon: "🌟", text: "you believe in me even when I don't." },
-    { icon: "🥰", text: "you're my biggest supporter and my achievement.!!" }
+    { icon: "💗", text: "You actually listen when I talk about random stuff!!" },
+    { icon: "😂", text: "You laugh at my bad jokes!" },
+    { icon: "🫂", text: "You make everything feel less stressful." },
+    { icon: "🌟", text: "You believe in me even when I don't." },
+    { icon: "🥰", text: "You're my biggest supporter and my achievement.!!" }
   ],
 
   finalMessage: "Happy Girlfriend Day, Sriii!",
@@ -314,7 +314,7 @@ const CONFIG = {
   couponTitle: "Lifetime Unlimited Kisses, Hugs & Cuddles",
   couponSub: "redeemable anytime, no expiry, no limit",
 
-  tulipMessage: "Take this sasta tulip flower bouquet my jaanu 🫣"
+  tulipMessage: "Take this tulip flower bouquet my jaanu!! - Your Omiii🫣"
 };
 // ================================================================
 // END OF EDIT SECTION
@@ -446,7 +446,7 @@ if (CONFIG.centerPhoto) {
 }
 document.getElementById('toPlaylistBtn').addEventListener('click', () => goTo('scene-playlist'));
 
-// ---------- BALLOON POP GAME ----------
+// ---------- BALLOON Pop GAME ----------
 const gameArea = document.getElementById('gameArea');
 const balloonColors = ['#8a1f3d', '#c9a44c', '#5c2340', '#e3bf6e', '#701f36', '#3d1a2c'];
 let popped = 0;
